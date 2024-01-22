@@ -30,7 +30,7 @@ export default function DisplayAll() {
   }, [currentPage]);
 
   return (
-    <div>
+    <div className="container">
       <div className="list">
         {episodes.map((episode) => (
           <div key={episode.id} className="card">
@@ -50,15 +50,47 @@ export default function DisplayAll() {
         ))}
       </div>
       <div className="pagination">
-        {Array.from({ length: totalPages }, (_, index) => (
+        <button
+          className={`page-nav ${currentPage === 1 ? "disabled" : ""}`}
+          onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
+          disabled={currentPage === 1}
+        >
+          &lt; 
+        </button>
+
+        {totalPages >= 1 && (
           <button
-            key={index}
-            className={`page-item ${index + 1 === currentPage ? "active" : ""}`}
-            onClick={() => setCurrentPage(index + 1)}
+            className={`page-item ${currentPage === 1 ? "active" : ""}`}
+            onClick={() => setCurrentPage(1)}
           >
-            {index + 1}
+            1
           </button>
-        ))}
+        )}
+        {totalPages >= 2 && (
+          <button
+            className={`page-item ${currentPage === 2 ? "active" : ""}`}
+            onClick={() => setCurrentPage(2)}
+          >
+            2
+          </button>
+        )}
+        {totalPages >= 3 && (
+          <button
+            className={`page-item ${currentPage === 3 ? "active" : ""}`}
+            onClick={() => setCurrentPage(3)}
+          >
+            3
+          </button>
+        )}
+        <button
+          className={`page-nav ${
+            currentPage >= 3 || currentPage === totalPages ? "disabled" : ""
+          }`}
+          onClick={() => setCurrentPage(currentPage < 3 ? currentPage + 1 : 3)}
+          disabled={currentPage >= 3 || currentPage === totalPages}
+        >
+          &gt; 
+        </button>
       </div>
     </div>
   );

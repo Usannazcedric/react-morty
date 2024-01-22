@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap");
 
-.minicontainer {
+.container {
   background-color: #4f4f4f;
   color: white;
   min-height: 100vh;
@@ -79,7 +79,6 @@
   flex-wrap: wrap;
   gap: 20px;
   font-family: "Montserrat Alternates", sans-serif;
-
 }
 
 .character-card {
@@ -93,6 +92,11 @@
 .character-card img {
   width: 80%;
   border-radius: 5px;
+  transition: border 0.3s; /* Ajoute une transition pour la bordure */
+}
+
+.character-card img:hover {
+  border: 3px solid #0090a3; /* Ajoute une bordure noire au survol */
 }
 
 .character-card h3 {
