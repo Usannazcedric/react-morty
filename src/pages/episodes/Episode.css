@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap");
+
+.minicontainer {
+  background-color: #4f4f4f;
+  color: white;
+  min-height: 100vh;
+}
+
+.name2 {
+  color: white;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 24px;
+  text-decoration: underline solid #00b2ca;
+  text-underline-offset: 8px;
+  margin-left: 12%;
+}
+
+.name3 {
+  color: white;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 24px;
+  text-decoration: underline solid #00b2ca;
+  text-underline-offset: 8px;
+  margin-left: 4%;
+  margin-top: -140px;
+}
+
+.img {
+  width: 80%;
+  margin-left: 12%;
+  margin-top: 7%;
+}
+
+.bluebar {
+  background-color: #00b2ca;
+  width: 90%;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 14px;
+}
+
+.episode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.left-section {
+  margin-bottom: 180px;
+}
+
+.middle-section {
+  margin-top: 40px;
+  padding: 20px;
+  color: white;
+  font-family: "Montserrat Alternates", sans-serif;
+  margin-bottom: 238px;
+}
+
+.middle-section h3 {
+  margin-left: 20px;
+}
+
+.right-section {
+  flex-grow: 1;
+}
+
+.left-section,
+.middle-section,
+.right-section {
+  flex-basis: 33%;
+  margin-top: 150px;
+}
+
+.character-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.character-card {
+  margin-left: 80px;
+  width: 180px; /* ou une autre largeur selon vos préférences */
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.character-card img {
+  width: 80%;
+  border-radius: 5px;
+}
+
+.character-card h3 {
+  margin-top: 10px;
+}
+
+.character-card p {
+  margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+  .footertext {
+    flex-direction: column; /* Empilez les éléments verticalement */
+    text-align: center; /* Centre le texte */
+    margin-top: 10px;
+  }
+  .logobottom {
+    margin-left: 120px;
+  }
+  .rightlinks {
+    justify-content: center; /* Centre les liens */
+    margin-top: 10px; /* Ajoutez de l'espace entre les éléments */
+  }
+}

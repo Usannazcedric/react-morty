@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap");
+
+.container {
+  overflow: hidden;
+}
+
+.Background {
+  background-image: url("https://cdn.discordapp.com/attachments/1197901325397143552/1197901394255040542/image.png?ex=65bcf39c&is=65aa7e9c&hm=ef45e3f585bbcc9b6763e6622bd12b1d859dc1d422ad2bdab0638f3e218bafaf");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logotop {
+  width: 32%;
+  margin-top: 13%;
+  margin-left: 5%;
+}
+
+.logobottom {
+  width: 185px;
+  height: 65px;
+  margin-top: 30px;
+  gap: 28px;
+  margin-left: 74px;
+}
+.episodes {
+  margin-left: 5%;
+  margin-top: 33px;
+  color: white;
+  width: 100%;
+}
+
+.episodes h1 {
+  font-size: 28px;
+  text-decoration: underline solid #00b2ca;
+  text-underline-offset: 5px;
+  font-family: "Montserrat Alternates", sans-serif;
+  margin: 0;
+}
+
+.nav {
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00b2ca;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+}
+
+.nav a {
+  margin: 0 10px;
+  display: block;
+  line-height: 0;
+}
+
+.nav img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 415px;
+  height: 200px;
+  /* background-color: #00B2CA; */
+  background-image: url("https://cdn.discordapp.com/attachments/1197901325397143552/1198719832628137984/image.png?ex=65bfedd7&is=65ad78d7&hm=23410c0edbf2fd8aec4d86b87f902d6084bc20381baa5772ae6d74f7b0a446e9&");
+  background-size: 104%;
+  background-position: center;
+  border-radius: 10px;
+  padding: 20px;
+  border: 3px solid #00b2ca;
+  margin: 45px 0;
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat Alternates", sans-serif;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.infos {
+  padding-right: 20px;
+  font-size: 10px;
+}
+
+.footerbackground {
+  height: 200px;
+  background-color: #363636;
+  width: 100%;
+}
+
+.bluebar {
+  background-color: #00b2ca;
+  width: 90%;
+  height: 1px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  font-size: 20px;
+}
+.footertext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.footertext h2 {
+  color: white;
+  font-family: "Montserrat Alternates", bold;
+  font-size: 14px;
+}
+
+.rightlinks {
+  display: flex;
+  gap: 20px;
+}
+
+.rightlinks a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.rightlinks a h2 {
+  color: white;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.rightlinks a:hover h2 {
+  color: #00b2ca;
+}
+
+.seemore {
+  margin-left: auto;
+  background-color: #00b2ca;
+  border: 1px solid #0090a3;
+  width: 125px;
+  border-radius: 7px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 35px;
+  height: 35px;
+}
+
+.seemore p {
+  color: white;
+}
+
+/*responsive*/
+
+@media (max-width: 600px) {
+  .Background {
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 21%;
+  }
+  .card {
+    width: 100%; /* Les cartes prennent toute la largeur */
+    margin: 20px 0; /* Réduisez la marge pour les petits écrans */
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    width: 90%;
+  }
+
+  .logotop {
+    margin-left: 85px;
+    margin-top: 85px;
+    width: 60%; /* Ajustez la taille du logo pour les petits écrans */
+  }
+
+  .logobottom {
+    margin-left: 120px;
+  }
+
+  .episodes {
+    margin-left: 3%; /* Réduisez la marge pour les petits écrans */
+    margin-right: 3%; /* Ajoutez une marge à droite pour les petits écrans */
+  }
+
+  .footertext {
+    flex-direction: column; /* Empilez les éléments verticalement */
+    text-align: center; /* Centre le texte */
+    margin-top: 10px;
+  }
+
+  .rightlinks {
+    justify-content: center; /* Centre les liens */
+    margin-top: 10px; /* Ajoutez de l'espace entre les éléments */
+  }
+}
