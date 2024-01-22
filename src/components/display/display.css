@@ -1,0 +1,50 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 415px;
+  height: 200px;
+  /* background-color: #00B2CA; */
+  background-image: url("https://cdn.discordapp.com/attachments/1197901325397143552/1198719832628137984/image.png?ex=65bfedd7&is=65ad78d7&hm=23410c0edbf2fd8aec4d86b87f902d6084bc20381baa5772ae6d74f7b0a446e9&");
+  background-size: 104%;
+  background-position: center;
+  border-radius: 10px;
+  padding: 20px;
+  border: 3px solid #00b2ca;
+  margin: 45px 0;
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat Alternates", sans-serif;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.name {
+  font-size: 20px;
+}
+
+.seemore {
+  margin-left: auto;
+  background-color: #00b2ca;
+  border: 1px solid #0090a3;
+  width: 125px;
+  border-radius: 7px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 35px;
+  height: 35px;
+}
+
+.seemore p {
+  color: white;
+}
+.infos {
+  padding-right: 20px;
+  font-size: 10px;
+}

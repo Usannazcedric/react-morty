@@ -78,6 +78,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  font-family: "Montserrat Alternates", sans-serif;
+
 }
 
 .character-card {
