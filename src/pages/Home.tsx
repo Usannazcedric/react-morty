@@ -13,7 +13,7 @@ export default function Home() {
           <img className="logotop" src="../images/logo.png"></img>
         </div>
         <div className="episodes">
-          <h1>LASTS EPISODES</h1>
+          <h1>LAST EPISODES</h1>
           <Display />
         </div>
       </div>

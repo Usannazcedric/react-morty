@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import "./Display.css";
+import "./display.css";
 
 interface Episode {
   id: number;
@@ -27,15 +27,15 @@ export default function Display() {
   }, []);
 
   return (
-    <div className="list">
+    <div className="list1">
       {episodes.map((episode) => (
-        <div key={episode.id} className="card">
-          <div className="infos">
-            <h2 className="name">{episode.episode}</h2>
+        <div key={episode.id} className="card1">
+          <div className="infos1">
+            <h2 className="name1">{episode.episode}</h2>
             <h2>{episode.name}</h2>
             <p>Release : {episode.air_date}</p>
           </div>
-          <div className="seemore">
+          <div className="seemore1">
             <Link to={`/episode/${episode.id}`}>
               <a>
                 <h2>See more</h2>

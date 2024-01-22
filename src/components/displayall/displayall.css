@@ -1,11 +1,12 @@
-.list1 {
+.list {
   display: flex;
   flex-wrap: wrap;
   gap: 35px;
   width: 100%;
+  margin-left: 5%;
 }
 
-.card1 {
+.card {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -18,38 +19,28 @@
   border-radius: 10px;
   padding: 20px;
   border: 3px solid #00b2ca;
-  margin: 45px 0;
+  margin-top: 4%;
+  margin-bottom: -4%;
   color: white;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   font-family: "Montserrat Alternates", sans-serif;
   background-repeat: no-repeat;
   overflow: hidden;
 }
-.name1 {
+
+.name {
   font-size: 20px;
 }
 
-.seemore1 {
-  margin-left: auto;
-  background-color: #00b2ca;
-  border: 1px solid #0090a3;
-  width: 125px;
-  border-radius: 7px;
-  font-size: 12px;
-  text-align: center;
-  line-height: 35px;
-  height: 35px;
-}
-
-.seemore1 a,
-.seemore1 a:visited,
-.seemore1 a:hover,
-.seemore1 a:active {
+.seemore a,
+.seemore a:visited,
+.seemore a:hover,
+.seemore a:active {
   color: white;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
-.seemore1 {
+.seemore {
   margin-left: auto;
   background-color: #00b2ca;
   border: 1px solid #0090a3;
@@ -60,15 +51,52 @@
   line-height: 35px;
   height: 35px;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
 }
 
-.seemore1 p {
+.seemore p {
   color: white;
 }
 
-.infos1 {
+.infos {
   padding-right: 20px;
   font-size: 10px;
+}
+
+.seemore {
+  margin-left: auto;
+  background-color: #00b2ca;
+  border: 1px solid #0090a3;
+  width: 125px;
+  border-radius: 7px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 35px;
+  height: 35px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
+}
+
+.page-item {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  border-radius: 50%;
+  border: none;
+  background-color: #00b2ca;
+  color: white;
+  cursor: pointer;
+}
+
+.page-item.active {
+  background-color: #0090a3;
+}
+
+.page-item:hover {
+  background-color: #007a8a;
 }

@@ -17,6 +17,7 @@
     top: 20px;
     left: 0;
     right: 0;
+    border: 1px solid #0090a3;
   }
   
   .nav a {
