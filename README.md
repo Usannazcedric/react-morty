@@ -2,7 +2,7 @@
 
 ## how to run the project :
 ```
-cd react-morty-starter
+cd react-morty
 npm i
 npm run dev
 ```
@@ -20,3 +20,5 @@ J'ai ajouté un effet "wow" : lorsque l'on clique sur l'un des personnages d'un 
 J'ai beaucoup aimé réaliser ce cas pratique. En effet, il m'a permis de découvrir React.js de manière plus approfondie que ce que j'avais pu faire dans le passé.
 
 J'espère que mon projet va vous plaire !
+
+Voici le lien du site hébergé pour les pôles non techniques comme demandé : 
