@@ -1,6 +1,6 @@
 # React Morty 
 
-## how to run the project :
+## Comment lancer le projet :
 ```
 cd react-morty
 npm i
