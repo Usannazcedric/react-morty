@@ -22,6 +22,7 @@
   margin-top: 33px;
   color: white;
   width: 100%;
+  height: max-content;
 }
 
 .episodes h1 {
@@ -45,7 +46,7 @@
 
 @media (max-width: 600px) {
   .Background {
-    height: 110vh;
+    height: max-content;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 21%;
@@ -73,7 +74,11 @@
   }
 
   .logobottom {
-    margin-left: 120px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    
   }
 
   .container {

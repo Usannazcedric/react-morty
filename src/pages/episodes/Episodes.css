@@ -38,13 +38,18 @@
     background-image: url("/images/responsiveimgepisodes.png");
   }
   .down {
-    height: 85vh;
+    height: 5vh;
   }
   .middle {
-    height: 75vh;
+    height: max-content;
   }
 
   .episodes {
     margin-left: 1.5%;
+  }
+  .middle {
+    background-color: #4f4f4f;
+    height: max-content;
+    min-height: 10vh;
   }
 }

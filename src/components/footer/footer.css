@@ -12,6 +12,7 @@
   height: 200px;
   background-color: #363636;
   width: 100%;
+  position: relative;
 }
 
 .container {
@@ -59,4 +60,13 @@
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  .logobottom {
+    margin: 0 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

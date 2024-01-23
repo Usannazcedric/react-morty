@@ -1,8 +1,11 @@
 .list1 {
   display: flex;
   flex-wrap: wrap;
-  gap: 35px;
+  gap: 35px; 
   width: 100%;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+  height: max-content;
 }
 
 .card1 {
@@ -68,6 +71,6 @@
 
 @media (max-width: 600px) {
   .list1 {
-    display: unset;
+    display: block;
   }
 }
