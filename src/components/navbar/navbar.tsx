@@ -17,7 +17,7 @@ export default function Navbar() {
         <a>
           <img
             className={`navhome ${currentPage === "/" ? "active" : ""}`}
-            src="../public/images/house.png"
+            src="/images/house.png"
             alt="home"
           />
         </a>
@@ -26,7 +26,7 @@ export default function Navbar() {
         <a>
           <img
             className={`navep ${currentPage === "/episodes" ? "active" : ""}`}
-            src="../public/images/rectangles.png"
+            src="/images/rectangles.png"
             alt="episodes"
           />
         </a>

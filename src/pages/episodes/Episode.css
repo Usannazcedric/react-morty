@@ -113,11 +113,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  } 
+  .middle-section {
+    margin-left: -10%;
+    margin-top: -40%;
   }
 
   .name2 {
     margin-left: 10%;
-    margin-top: 0;
+
   }
   .img {
     width: 80%;
@@ -135,5 +139,32 @@
   .rightlinks {
     justify-content: center;
     margin-top: 10px;
+  }
+
+  .name3 {
+    margin-top: -90%;
+    margin-left: 0%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .character-section{
+    margin: 0 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .character-card{
+    margin-top: 10%;
+    width: 100%;
+    padding: 0;
+  }
+  .character-card p, h3 {
+    margin: 0 0;
+    justify-content: center;
+    align-items: center;
   }
 }

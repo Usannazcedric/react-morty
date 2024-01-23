@@ -62,7 +62,7 @@ export default function Episode() {
           <h1 className="name2">{episode.name}</h1>
           <img
             className="img"
-            src="../public/images/episodeimg.png"
+            src="/images/episodeimg.png"
             alt="Episode image"
           />
         </div>
@@ -76,7 +76,7 @@ export default function Episode() {
         </div>
         <div className="right-section"></div>
       </div>
-      <div>
+      <div className="down1">
         <h1 className="name3">5 Characters in the episode</h1>
         <div className="character-section">
           {characters.map((character) => (
