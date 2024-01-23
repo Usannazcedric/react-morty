@@ -55,7 +55,7 @@ export default function DisplayAll() {
           onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
           disabled={currentPage === 1}
         >
-          &lt; 
+          &lt;
         </button>
 
         {totalPages >= 1 && (
@@ -89,7 +89,7 @@ export default function DisplayAll() {
           onClick={() => setCurrentPage(currentPage < 3 ? currentPage + 1 : 3)}
           disabled={currentPage >= 3 || currentPage === totalPages}
         >
-          &gt; 
+          &gt;
         </button>
       </div>
     </div>

@@ -32,7 +32,6 @@
   margin-left: 23px;
 }
 
-
 @media (max-width: 600px) {
   .top {
     height: 30vh;
@@ -40,17 +39,12 @@
   }
   .down {
     height: 85vh;
-
   }
   .middle {
     height: 75vh;
-
   }
 
-  .episodes{
+  .episodes {
     margin-left: 1.5%;
   }
-
-
 }
-

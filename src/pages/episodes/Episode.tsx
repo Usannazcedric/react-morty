@@ -4,8 +4,7 @@ import Footer from "../../components/footer/footer";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import { useNavigate } from 'react-router-dom';
-
+import { useNavigate } from "react-router-dom";
 
 interface Episode {
   id: number;
@@ -28,10 +27,8 @@ export default function Episode() {
   const [characters, setCharacters] = useState<Character[]>([]);
   const navigate = useNavigate();
   const handleCharacterClick = (characterId: number) => {
-    // Redirige vers la page de détails du personnage
-    navigate(`/character/${characterId}`); // modifiez la ligne pour utiliser navigate
+    navigate(`/character/${characterId}`);
   };
-
 
   useEffect(() => {
     axios
@@ -83,8 +80,16 @@ export default function Episode() {
         <h1 className="name3">5 Characters in the episode</h1>
         <div className="character-section">
           {characters.map((character) => (
-            <div key={character.id} className="character-card" onClick={() => handleCharacterClick(character.id)}>
-              <img src={character.image} alt={character.name} style={{ cursor: 'pointer' }} />
+            <div
+              key={character.id}
+              className="character-card"
+              onClick={() => handleCharacterClick(character.id)}
+            >
+              <img
+                src={character.image}
+                alt={character.name}
+                style={{ cursor: "pointer" }}
+              />
               <h3>{character.name}</h3>
               <p>Gender : {character.gender}</p>
             </div>

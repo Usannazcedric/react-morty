@@ -4,7 +4,6 @@ import Display from "../components/display/display";
 import Footer from "../components/footer/footer";
 
 export default function Home() {
-
   return (
     <div className="container1">
       <div className="Background">
