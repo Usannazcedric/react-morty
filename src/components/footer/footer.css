@@ -12,9 +12,14 @@
   height: 200px;
   background-color: #363636;
   width: 100%;
+
 }
 
+.container {
+  overflow-x: hidden;
+}
 .footertext {
+  
   display: flex;
   justify-content: space-between;
   align-items: center;

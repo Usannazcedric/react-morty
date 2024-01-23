@@ -6,7 +6,7 @@ import Footer from "../components/footer/footer";
 export default function Home() {
 
   return (
-    <div className="container">
+    <div className="container1">
       <div className="Background">
         <Navbar />
         <div>

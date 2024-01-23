@@ -108,6 +108,24 @@
 }
 
 @media (max-width: 600px) {
+
+  .episode{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .name2 {
+    margin-left: 10%;
+    margin-top: 0;
+  }
+  .img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
   .footertext {
     flex-direction: column; /* Empilez les éléments verticalement */
     text-align: center; /* Centre le texte */

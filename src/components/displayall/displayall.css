@@ -106,3 +106,9 @@
 .seemore:hover {
   background-color: #0090a3;
 }
+
+@media (max-width: 600px) {
+  .pagination {
+    margin-top: 13%;
+  }
+}

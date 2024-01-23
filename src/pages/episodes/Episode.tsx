@@ -80,7 +80,7 @@ export default function Episode() {
         <div className="right-section"></div>
       </div>
       <div>
-        <h1 className="name3">Characters in the episode</h1>
+        <h1 className="name3">5 Characters in the episode</h1>
         <div className="character-section">
           {characters.map((character) => (
             <div key={character.id} className="character-card" onClick={() => handleCharacterClick(character.id)}>

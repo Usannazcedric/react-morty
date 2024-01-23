@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap");
 
 .top {
-  background-image: url("public/images/backgroundepisodes.png");
+  background-image: url("../images/backgroundepisodes.png");
   height: 40vh;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -31,3 +31,26 @@
   color: white;
   margin-left: 23px;
 }
+
+
+@media (max-width: 600px) {
+  .top {
+    height: 30vh;
+    background-image: url("public/images/responsiveimgepisodes.png");
+  }
+  .down {
+    height: 85vh;
+
+  }
+  .middle {
+    height: 75vh;
+
+  }
+
+  .episodes{
+    margin-left: 1.5%;
+  }
+
+
+}
+
