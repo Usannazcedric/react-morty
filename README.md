@@ -1,55 +1,24 @@
-# CAS PRATIQUE REACT - REACT MORTY
+# React Morty 
 
-## INSTALLATION
-
-```bash
-git clone https://github.com/William29302/react-morty-starter.git
-cd react-morty-starter
-npm install
+## how to run the project :
+```
+cd react-morty
+npm i
 npm run dev
 ```
 
-## Cas Pratique : Développement d'une Application React consommant l'API Rick et Morty
+## Mon approche technique : 
 
-## Objectif
+J'ai utilisé React.js et me suis renseigné sur TypeScript pour l'utiliser de la meilleure manière possible (j'espère que c'est le cas). 
+Au niveau de la gestion de l'API, j'ai opté pour Axios car je l'avais déjà utilisé par le passé. Je me suis également renseigné sur React Query, mais j'ai privilégié une technologie que je connaissais déjà. 
+Pour le responsive, je trouve qu'il est bien adapté au format iPhone 14 Pro Max et aux ordinateurs. Cependant, pour d'autres formats, il y a quelques défauts, mais dans l'ensemble, ça fonctionne bien.
+Pour le routage, j'ai simplement utilisé React Router.
+J'ai ajouté un effet "wow" : lorsque l'on clique sur l'un des personnages d'un épisode, une nouvelle page s'ouvre avec des informations complémentaires sur le personnage.
 
-Développer une application React utilisant le starter fourni, consommant l'API publique de Rick et Morty. L'application doit être responsive, utiliser React-Query pour gérer les requêtes API et mettre en place le routing.
+## Mon ressenti :
 
-## Instructions
+J'ai beaucoup aimé réaliser ce cas pratique. En effet, il m'a permis de découvrir React.js de manière plus approfondie que ce que j'avais pu faire dans le passé.
 
-En utilisant le starter fourni et en suivant le design fourni, développez une application React qui répond aux points suivants :
+J'espère que mon projet va vous plaire !
 
-1. **API Rick et Morty :**
-
-   - Consommez l'API publique de Rick et Morty pour afficher des informations sur les personnages & épisodes.
-
-2. **Responsive Design :**
-
-   - Assurez-vous que l'application soit responsive, permettant une expérience utilisateur optimale sur différentes tailles d'écrans.
-
-3. **React-Query :**
-
-   - Utilisez React-Query pour gérer les requêtes API et cachez les requêtes au moyen de cette bibliothèque.
-
-4. **Routing :**
-
-   - Mettez en place le routing pour permettre la navigation entre les différentes pages de l'application.
-
-5. **Pagination :**
-   - Mettez en place la pagination pour l'affichage progressif des épisodes ( j'ai choisi une api qui facilite la tâche d'intégration de la pagination, ne me remerciez pas :p ).
-
-## Livraison
-
-Soumettez votre app sous forme de lien vers un repository GitHub, accompagné d'un fichier README expliquant votre approche, les choix de conception, et les étapes pour exécuter l'application localement. Supprimer le .git ( fichier invisible pour délier le projet et le connecter à votre propre repository ). Pensez à ajouter les node_modules dans le gitignore.
-
-# Informations complémentaires
-
-J'ai préparé un starter mais si vous souhaitez modifier la structure du projet, vous pouvez le faire, Organisez vous comme bon vous semble.
-
-Vous pouvez également utiliser un framework CSS tels que TailwindCSS ou un préprocesseurs tels que SASS.
-
-Vous pouvez utiliser les icônes SVG de votre choix, ou utiliser une bibliothèque telle que React-Icons.
-
-[API RICK & MORTY](https://rickandmortyapi.com/documentation/#rest)
-
-N'hésitez pas à me contacter si vous avez des questions. Bon courage, impatients de voir votre travail !
+Voici le lien du site hébergé pour les pôles non techniques comme demandé : 
